@@ -1,30 +1,5 @@
-This programming project is divided into four tasks for creating a Hangman game in C++. Here's a breakdown of each task:
+For this project, I developed a Pokémon-inspired game called "Profémon" which is centered around the professors of my computer science department. I crafted two classes, Skill and Profemon, complete with corresponding header and source files (.hpp and .cpp). The Skill class encapsulates private member variables for storing skill information and public member functions for accessing and modifying skill attributes. As for the Profemon class, it houses private member variables for various Profémon attributes like name, level, experience, and skills. The class also boasts public member functions for interacting with and manipulating Profémon attributes, such as leveling up and learning skills.
 
-**Task A: Dictionary using Arrays**
-- Create a dictionary using global arrays for words, definitions, and part-of-speech.
-- Implement a function `readWords` to read words, definitions, and part-of-speech from a file into the global arrays.
-- Global variables include `g_MAX_WORDS`, `g_word_count`, `g_words`, `g_definitions`, and `g_pos`.
+Taking it a step further, I introduced a Trainer class, representing Profémon trainers. This class features a team of three Profémons, a Profédex for storage, and a currently selected Profémon. I implemented functionalities for adding, removing, and managing Profémons in a Trainer's team and Profédex. The project also includes department classes (MLDepartment, SoftwareDepartment, and HardwareDepartment) inheriting from the Trainer class, each specializing in a particular type of Profémon.
 
-**Task B: Dictionary Operations**
-- Implement functions for dictionary operations: `getIndex`, `getDefinition`, `getPOS`, and `countPrefix`.
-- These functions allow users to query information about words in the dictionary.
-- Test each function incrementally, and submit a single .cpp file without the main function.
-
-**Task C: Dictionary Admin Operations**
-- Implement functions to modify, add, and remove words in the dictionary: `addWord`, `editWord`, and `removeWord`.
-- Ensure proper handling of word additions, edits, and removals.
-- Utilize previously implemented functions for indexing.
-- Submit a single .cpp file without the main function.
-
-**Task D: Hangman**
-- Implement a Hangman game using a provided game loop `gameLoop`.
-- Additional functions include `getRandomWord`, `maskWord`, `getTries`, `printAttempts`, and `revealLetter`.
-- The game involves selecting a random word, masking it, and allowing the player to guess letters until they either succeed or run out of attempts.
-- Test each function, ensuring proper integration with the game loop.
-- Submit a single .cpp file to gradescope without the main function.
-
-**Important Notes:**
-- Emphasizes incremental development, testing, and submission of individual tasks.
-- Provides detailed specifications for each function, including parameters, return types, and post-conditions.
-- Requires proper implementation of global variables, arrays, and file handling.
-- Highlights the importance of testing and suggests removing the main function before submission to gradescope.
+In essence, this project showcases my proficiency in implementing object-oriented programming concepts, including classes, inheritance, and encapsulation, to create a sophisticated system simulating Profémon and their trainers.

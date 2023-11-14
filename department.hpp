@@ -1,11 +1,7 @@
 /*
 Author: Kenneth Guillont
-Course: CSCI-136
-Instructor: Brandon Foster
-Assignment: Project 2
 */
 
-// This is an introductory comment
 #ifndef DEPARTMENT
 #define DEPARTMENT
 

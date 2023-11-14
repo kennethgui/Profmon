@@ -1,8 +1,5 @@
 /*
 Author: Kenneth Guillont
-Course: CSCI-136
-Instructor: Brandon Foster
-Assignment: Project 2
 */
 
 #include <iostream>
